@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel='stylesheet' href='/stylesheets/style.css'/>
+		<link rel="stylesheet" href="javascripts/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<script src="javascripts/bower_components/jquery/jquery.min.js"></script>
+		<script src="javascripts/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="javascripts/bower_components/angular/angular.min.js"></script>
+		<script src="javascripts/bower_components/angular-route/angular-route.min.js"></script>
+		<script src="javascripts/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	</head>
+	<body>
+		<div class="stuff" ng-controller="MyCtrl">
+			{{welcomeMessage}}
+		</div>
+		<div ng-view></div>
+
+		<script data-main="javascripts/app/main" src="javascripts/bower_components/requirejs/require.js"></script>
+	</body>
+</html>
