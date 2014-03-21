@@ -43,11 +43,12 @@ app.get("/api/music.json", function(req, res) {
 	async.waterfall([
 		function(callback) {
 			fs.readdir("public/music/", function(err, files) {
-				callback(null, [files[0]]);
+				callback(null, files);
 			});
 		},
 		function(files, callback) {
 			var tracks = [];
+			console.log("files: ", files);
 			async.each(files, function(item, cb) {
 				/*id3({file: "public/music/" + item, type: id3.OPEN_LOCAL}, function(err, tags) {
 					tracks.push({filename: item, tags: tags});
