@@ -1,10 +1,9 @@
 <div class="playlistView">
 	<ul>
 		<li ng-repeat="file in fileList">
-			<span ng-click="loadTrack(file.filename)">
-				<strong>Filename: </strong>{{file.filename}}<br/>
-				<strong>Title: </strong>{{file.tags.title}}<br/>
-				<strong>Artist: </strong>{{file.tags.artist}}
+			<span ng-click="loadTrack(file.id)">
+				<strong>Filename: </strong>{{file.id}}<br/>
+				<strong>Title: </strong>{{file.title}}<br/>
 			</span>
 
 		</li>

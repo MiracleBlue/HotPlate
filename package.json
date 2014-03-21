@@ -10,6 +10,7 @@
 		"ejs": "*",
 		"ffmetadata": "*",
 		"id3js": "*",
-		"async": "*"
+		"async": "*",
+		"async-foreach": "*"
 	}
 }

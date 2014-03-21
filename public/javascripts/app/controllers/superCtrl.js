@@ -5,10 +5,24 @@ define(function() {
 		$scope.fileList = [];
 		$scope.path = "music/";
 		$scope.currentFile = "dont-mind-waiting.mp3";
+		$scope.currentSound = null;
 		$scope.computedFilePath = function() {return $scope.path + $scope.currentFile;};
-		$http({method: "GET", url: "/api/music.json"}).success(function(data) {
-			console.log(data);
-			$scope.fileList = data;
+		$scope.play = function() {
+			$scope.currentSound.play();
+			$scope.playing = true;
+		};
+		$scope.pause = function() {
+			$scope.currentSound.pause();
+			$scope.playing = false;
+		};
+
+		SC.get('/tracks', { genres: 'trance', duration: { from: (20*60)*1000 } }, function(tracks) {
+			console.log(tracks);
+			$scope.$apply(function(scope) {
+				scope.fileList = tracks;
+			});
+			console.log("fileList", $scope.fileList);
+			console.log("scope", $scope);
 		});
 	}]
 })

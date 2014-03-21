@@ -11,19 +11,23 @@ define([
 				var audioElem = element.find("audio")[0];
 				console.log($scope, element, attrs);
 				console.log(this);
-				$scope.play = function() {
+				/*$scope.play = function() {
 					audioElem.play();
 					$scope.playing = true;
 				};
 				$scope.pause = function() {
 					audioElem.pause();
 					$scope.playing = false;
-				};
+				};*/
 				$scope.loadTrack = function(fileName) {
 					$scope.currentFile = fileName;
-					if ($scope.playing) {
-						$scope.play();
-					}
+					SC.stream("/tracks/" + $scope.currentFile, function(sound) {
+						console.log("loadTrack", sound);
+						$scope.currentSound = sound;
+						if ($scope.playing) {
+							$scope.play();
+						}
+					});
 				}
 			}
 		}

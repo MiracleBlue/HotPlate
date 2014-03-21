@@ -18,4 +18,12 @@ require([
 		$html.addClass('ng-app');
 		angular.bootstrap($html, [app['name']]);
 	});
-})
+
+	// Just some soundcloud stuff
+	SC.initialize({
+		client_id: "50adf62a807832b54c4558ed5b2239ea"
+	});
+
+
+
+});
