@@ -1,0 +1,34 @@
+{
+	"name": "HotPlate",
+	"version": "0.0.1",
+	"homepage": "https://github.com/MiracleBlue/HotPlate",
+	"authors": [
+		"Nicholas Kircher"
+	],
+	"description": "Just an audio player with Angular and Node.  Useless to everyone but me.",
+	"main": "app.js",
+	"moduleType": [
+		"node"
+	],
+	"license": "MIT",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"public/javascripts/bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular-latest": "~1.2.0",
+		"angular-route": "~1.2.0",
+		"angular-seed": "*",
+		"angular-ui-router": "~0.2.0",
+		"angular": "~1.2.0",
+		"bootstrap": "~3.0.2",
+		"jquery": "~2.0.3",
+		"requirejs-text": "~2.0.10",
+		"requirejs": "~2.1.9"
+	}
+}
