@@ -19,16 +19,7 @@ define([
 					audioElem.pause();
 					$scope.playing = false;
 				};*/
-				$scope.loadTrack = function(fileName) {
-					$scope.currentFile = fileName;
-					SC.stream("/tracks/" + $scope.currentFile, function(sound) {
-						console.log("loadTrack", sound);
-						$scope.currentSound = sound;
-						if ($scope.playing) {
-							$scope.play();
-						}
-					});
-				}
+
 			}
 		}
 	}).directive("playlist", function() {
