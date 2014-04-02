@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
+            <state line="20" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.45649073" vertical-offset="0" max-vertical-offset="701">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playlistTemplate.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="playlistTemplate.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/playlistTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="204" selection-end="204" vertical-scroll-proportion="0.1183432" vertical-offset="0" max-vertical-offset="676">
+            <state line="10" column="6" selection-start="238" selection-end="238" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
               <folding />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/public/javascripts/app/templates/playlistTemplate.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/directives.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/app.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/services.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/services.js" />
       </list>
     </option>
   </component>
@@ -601,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="11" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
@@ -624,7 +617,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/playlistTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="204" selection-end="204" vertical-scroll-proportion="0.1183432" vertical-offset="0" max-vertical-offset="676">
+        <state line="10" column="6" selection-start="238" selection-end="238" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.45649073" vertical-offset="0" max-vertical-offset="701">
           <folding />
         </state>
       </provider>

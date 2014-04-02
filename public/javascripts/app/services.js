@@ -18,7 +18,7 @@ define([
 		this.loadTrack = function(id, callback) {
 			SC.stream("/tracks/" + id, function(sound) {
 				console.log("loadTrack", sound);
-				$rootScope.apply(function() {
+				$rootScope.$apply(function() {
 					callback(sound);
 				});
 			});
