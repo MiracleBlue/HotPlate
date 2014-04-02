@@ -1,5 +1,5 @@
 define(function() {
-	return ["$scope", "$http", function($scope, $http) {
+	return ["$scope", "$http", "SuperService", function($scope, $http, $superService) {
 		$scope.thing = "Boom, works";
 		$scope.playing = false;
 		$scope.fileList = [];
@@ -15,9 +15,9 @@ define(function() {
 			$scope.currentSound.pause();
 			$scope.playing = false;
 		};
-		$scope.loadTrack = function(fileName) {
-			$scope.currentFile = fileName;
-			SC.stream("/tracks/" + $scope.currentFile, function(sound) {
+		$scope.loadTrack = function(id) {
+			$scope.currentFile = id;
+			$superService.loadTrack($scope.currentFile, function(sound) {
 				console.log("loadTrack", sound);
 				$scope.currentSound = sound;
 				if ($scope.playing) {
@@ -26,13 +26,8 @@ define(function() {
 			});
 		};
 
-		SC.get('/tracks', { genres: 'trance', duration: { from: (20*60)*1000 } }, function(tracks) {
-			console.log(tracks);
-			$scope.$apply(function(scope) {
-				scope.fileList = tracks;
-			});
-			console.log("fileList", $scope.fileList);
-			console.log("scope", $scope);
+		$superService.loadTrackList(function(tracks) {
+			$scope.fileList = tracks;
 		});
 	}]
-})
+});

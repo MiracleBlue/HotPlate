@@ -1,14 +1,17 @@
 define([
 	"controllers",
-	"directives"
+	"directives",
+	"services"
 ], function(
 	controllers,
-	directives
+	directives,
+	services
 ) {
 	return angular.module("hotPlate", [
 		"ui.router",
 		"ngRoute",
 		"hotPlate.controllers",
-		"hotPlate.directives"
+		"hotPlate.directives",
+		"hotPlate.services"
 	]);
 });
