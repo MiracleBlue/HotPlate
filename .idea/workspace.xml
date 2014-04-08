@@ -53,7 +53,7 @@
       <file leaf-file-name="superCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="877" selection-end="877" vertical-scroll-proportion="0.7303852" vertical-offset="0" max-vertical-offset="816">
+            <state line="24" column="40" selection-start="633" selection-end="633" vertical-scroll-proportion="0.54778886" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -624,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="877" selection-end="877" vertical-scroll-proportion="0.7303852" vertical-offset="0" max-vertical-offset="816">
+        <state line="24" column="40" selection-start="633" selection-end="633" vertical-scroll-proportion="0.54778886" vertical-offset="0" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
