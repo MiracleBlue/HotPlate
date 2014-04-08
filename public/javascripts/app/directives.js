@@ -7,9 +7,9 @@ define([
 		return {
 			restrict: "EA",
 			template: '<div>{{currentFile}}</div><audio src="{{computedFilePath()}}"></audio><button ng-click="play()">Play</button><button ng-click="pause()">Pause</button>',
-			link: function($scope, element, attrs) {
+			link: function(scope, element, attrs) {
 				var audioElem = element.find("audio")[0];
-				console.log($scope, element, attrs);
+				console.log(scope, element, attrs);
 				console.log(this);
 				/*$scope.play = function() {
 					audioElem.play();

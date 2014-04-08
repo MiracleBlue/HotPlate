@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="superCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="superCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="11" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+            <state line="32" column="45" selection-start="877" selection-end="877" vertical-scroll-proportion="0.7303852" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.45649073" vertical-offset="0" max-vertical-offset="701">
+            <state line="26" column="45" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+            <state line="11" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
               <folding />
             </state>
           </provider>
@@ -135,10 +135,10 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/app/main.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/templates/playlistTemplate.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/directives.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/app.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/directives.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/services.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js" />
       </list>
     </option>
   </component>
@@ -594,23 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+        <state line="11" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
           <folding />
         </state>
       </provider>
@@ -622,9 +608,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.45649073" vertical-offset="0" max-vertical-offset="701">
+        <state line="26" column="45" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/controllers/superCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="877" selection-end="877" vertical-scroll-proportion="0.7303852" vertical-offset="0" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
