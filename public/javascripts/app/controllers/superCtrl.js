@@ -16,23 +16,23 @@ define(function() {
 		// Methods should all return $scope;
 		$scope.play = function() {
 			console.log("play");
-			$scope.currentSound.play();
-			$scope.playing = true;
+			$scope.model.currentSound.play();
+			$scope.model.playing = true;
 			return $scope;
 		};
 		$scope.pause = function() {
 			console.log("pause");
-			$scope.currentSound.pause();
-			$scope.playing = false;
+			$scope.model.currentSound.pause();
+			$scope.model.playing = false;
 			return $scope;
 		};
 		$scope.loadTrack = function(id) {
 			console.log("loadTrack();");
-			$scope.currentFile = id;
-			superService.loadTrack($scope.currentFile, function(sound) {
-				console.log("loadTrack sound:", sound);
-				$scope.currentSound = sound;
-				if ($scope.playing) {
+			$scope.model.currentFile = id;
+			superService.loadTrack($scope.model.currentFile, function(sound) {
+				console.log("callback sound:", sound);
+				$scope.model.currentSound = sound;
+				if ($scope.model.playing) {
 					$scope.play();
 				}
 			});
@@ -40,7 +40,7 @@ define(function() {
 		};
 
 		superService.loadTrackList(function(tracks) {
-			$scope.fileList = tracks;
+			$scope.model.fileList = tracks;
 		});
 	}]
 });

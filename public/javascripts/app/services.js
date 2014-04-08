@@ -14,6 +14,7 @@ define([
 			console.log("loadTrackList");
 			SC.get('/tracks', { genres: 'trance', duration: { from: (20*60)*1000 } }, function(tracks) {
 				console.log(tracks);
+
 				$rootScope.$apply(function() {
 					callback(tracks);
 				});
@@ -25,10 +26,7 @@ define([
 			console.log("loadTrack");
 			SC.stream("/tracks/" + id, function(sound) {
 				console.log("loadTrack sound:", sound);
-
-				$rootScope.$apply(function() {
-					callback(sound);
-				});
+				callback(sound);
 			});
 		};
 	});
